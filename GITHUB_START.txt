@@ -7,17 +7,3 @@
 5. Запустите start_windows.bat, затем откройте:
    http://127.0.0.1:8000/articles/
 
-КАК ЗАГРУЗИТЬ В ОТДЕЛЬНЫЙ РЕПОЗИТОРИЙ GITHUB
-
-Создайте новый пустой репозиторий на GitHub.
-В терминале VS Code, открытом именно в django-blog-crud:
-
-git init
-git add .
-git commit -m "Django blog and articles CRUD"
-git branch -M main
-git remote add origin URL_ВАШЕГО_НОВОГО_РЕПОЗИТОРИЯ
-git push -u origin main
-
-Замените URL_ВАШЕГО_НОВОГО_РЕПОЗИТОРИЯ на адрес репозитория GitHub.
-В архиве нет истории Git или сторонних проектов.
